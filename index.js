@@ -5,7 +5,7 @@ const bulk = require('bulk-require')
 
 // const git = require('patch-git')
 const horcrux = require('ssb-horcrux')
-const patchbay = { pathcbay: bulk(__dirname, [ '!(node_modules|junk)/**/*.js' ]) }
+const patchbay = { patchbay: bulk(__dirname, [ '!(node_modules|junk)/**/*.js' ]) }
 const patchcore = require('patchcore')
 
 // polyfills
